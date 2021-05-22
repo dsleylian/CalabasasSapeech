@@ -1,0 +1,49 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+.jumbotron {
+    background-color: #ffdd9f;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.navbar {
+    background-color: #007e9c;
+    font-size: 20px;
+}
+
+.nav-item {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+h2 {
+    margin-top: 40px;
+    color: #004a76;
+    font-weight: 900;
+}
+
+h3 {
+    color: #f0533a;
+    
+}
+
+.jumbocotainer{
+    min-width: 100%;
+}
+
+
+
+.content-row {
+    margin-bottom: 30px;
+}
+
+.site-footer {
+    background-image: linear-gradient(to bottom, #ffdd9f, white) ;
+    padding: 20px 0;
+    margin-top: 30px;
+}
