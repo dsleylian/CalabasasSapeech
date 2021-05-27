@@ -27,3 +27,7 @@ $(function() {
         $("#work-with-flip-modal").modal("show");
     });
 });
+
+$(function(){
+    $(".carousel").carousel({interval: 4000});
+});
