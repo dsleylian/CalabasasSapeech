@@ -210,14 +210,14 @@
                 </div>
             </div>
             <div class="row content-row mt-4">
-                <div class="col">
+                <div class="col offset-md-1">
 
                     <!--Meet the team-->
                     <h4>Meet the team</h4>
                 </div>
             </div>
-            <div class="row content-row align-items-center">
-                <div class="col text-right">
+            <div class="row content-row align-items-center ">
+                <div class="col-12 col-md text-md-right">
                     <img src="images/goldenfounder.jpg" alt="This golden retriver founded Calabasas Speech" width="350px">
                 </div>
                 <div class="col col-lg-6 offset-md-1">
@@ -225,11 +225,11 @@
                     <p>MS CCC-SLP</p>
                     <p class="meet-team-p">Goldy is a California-licensed Speech Language Pathologist with vast experience with pediatric and adult populations. She is the founder of Calabasas Speech and brings with her years of experience working with children with weaknesses in speech, language, and social skills.</p> 
                     <p class="meet-team-p">Goldy received her BA in Linguistics from the University of California, Santa Barabara, and her MS in Speech-Language Pathology from California State University, Northridge. </p>
-                    <p>Interested in working with Goldy? <a class="btn btn-light text-white" id="work-with-goldy">Let us know</a></p>
+                    <p>Interested in working with Goldy? <a class="btn btn-light text-white" id="work-with-goldy-button">Let us know</a></p>
                 </div>
             </div>
             <div class="row content-row align-items-center">
-                <div class="col text-right">
+                <div class="col-12 col-md text-md-right">
                     <img src="images/pug.jpg" width="350px" alt="pug veteran SLP" >
                 </div>
                 <div class="col col-lg-6 offset-md-1">
@@ -237,11 +237,11 @@
                     <p>MS CCC-SLP</p>
                     <p class="meet-team-p">Puggy is an SLP with over 3 decades of experience in acute rehab settings. She has expereince working with adults and pediatrics in inpatient and outpatient settings. Her experience as a medical SLP ranges from dysphagia, neurological disorders, voice, cognition, and complex medical conditions.</p>
                     <p class="meet-team-p">Puggy received her MS is Speech and Language Pathology from John Hopkins University.</p>
-                    <p>Interested in working with Puggy? <a class="btn btn-light text-white" id="work-with-puggy">Let us know</a></p>
+                    <p>Interested in working with Puggy? <a class="btn btn-light text-white" id="work-with-puggy-button">Let us know</a></p>
                 </div>
             </div>
             <div class="row content-row align-items-center">
-                <div class="col text-right">
+                <div class="col-12 col-md text-md-right">
                     <img src="images/puppybandana.jpg" width="350px" alt="Puppy slpa bandana" >
                 </div>
                 <div class="col col-lg-6 offset-md-1">
@@ -249,11 +249,11 @@
                     <p>BS SLP-A</p>
                     <p class="meet-team-p"> Libby has a specific interest working with the pediatric population and areas of specialty include fluency, articulation, apraxia of speech, social pragmatic disorders, and early intervention. She enjoys working in the early intervention field and helping young children become functional communicators. </p>
                     <p class="meet-team-p">Libby received her BS is Speech and Language Pathology from California State University, Northridge.</p>
-                    <p>Interested in working with Libby? <a class="btn btn-light text-white" id="work-with-libby">Let us know</a></p>
+                    <p>Interested in working with Libby? <a class="btn btn-light text-white" id="work-with-libby-button">Let us know</a></p>
                 </div>
             </div>
             <div class="row content-row align-items-center">
-                <div class="col text-right">
+                <div class="col-12 col-md text-md-right">
                     <img src="images/goldenpuppy.jpg" width="350px" alt="golden puppy newest addition" >
                 </div>
                 <div class="col col-lg-6 offset-md-1">
@@ -261,14 +261,134 @@
                     <p>BS SLP-A</p>
                     <p class="meet-team-p"> Flip is the newest addition to our team. He completed his Clinical Fellowship with us in 2019, and now continues to improve the communication skills of his clients. He currently runs our social-skills groups, which are held on Saturdays, and sees individual clients during the week.</p>
                     <p class="meet-team-p">Flip received his BS is Speech and Language Pathology from California State University, Northridge.</p>
-                    <p>Interested in working with Flip? <a class="btn btn-light text-white" id="work-with-flip">Let us know</a></p>
+                    <p>Interested in working with Flip? <a class="btn btn-light text-white" id="work-with-flip-button">Let us know</a></p>
                 </div>
             </div>
         </div>
 
         <!--Let Us Know Modals -->
+        <!--Goldy-->
+        <div id="work-with-goldy-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Interested in working with Goldy?</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientname"> Name</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="clientname" name="clientname" required>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientphone"> Phone Number</label>
+                                    <div class="col">
+                                        <input type="tel" class="form-control" id="clientphone" name="clientphone" required>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="aboutyou">Additional Info</label>
+                                    <div class="col">
+                                        <textarea rows="4" class="form-control" placeholder="Please tell us more about yourself/your child"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientname">Preferred Setting</label>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inhome" id="inhome">
+                                            <label for="inhome" class="form-check-label">In Home</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inoffice" id="inoffice">
+                                            <label for="inoffice" class="form-check-label">Office</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="onsite" id="onsite">
+                                            <label for="onsite" class="form-check-label">On Site</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="teletherapysetting" id="teletherapysetting">
+                                            <label for="teletherapysetting" class="form-check-label">Tele-thearpy</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center mt-3">
+                                    <button type="submit" class="btn consult-submit-button text-white">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div id="work-with-goldy" class="modal fade" role="dialog">
+         <!--Puggy-->
+         <div id="work-with-puggy-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Interested in working with Puggy?</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientname">Name</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="clientname" name="clientname" required>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientphone">Phone Number</label>
+                                    <div class="col">
+                                        <input type="tel" class="form-control" id="clientphone" name="clientphone" required>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="aboutyou">Additional Info</label>
+                                    <div class="col">
+                                        <textarea rows="4" class="form-control" placeholder="Please tell us more about yourself/your child"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientname">Preferred Setting</label>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inhome" id="inhome">
+                                            <label for="inhome" class="form-check-label">In Home</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inoffice" id="inoffice">
+                                            <label for="inoffice" class="form-check-label">Office</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="onsite" id="onsite">
+                                            <label for="onsite" class="form-check-label">On Site</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="teletherapysetting" id="teletherapysetting">
+                                            <label for="teletherapysetting" class="form-check-label">Tele-thearpy</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center mt-3">
+                                    <button type="submit" class="btn consult-submit-button text-white">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Libby-->
+        <div id="work-with-libby-modal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -290,7 +410,111 @@
                                         <input type="tel" class="form-control" id="clientphone" name="clientphone" required>
                                     </div>
                                 </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="aboutyou">Additional Info</label>
+                                    <div class="col">
+                                        <textarea rows="4" class="form-control" placeholder="Please tell us more about yourself/your child"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientname">Preferred Setting</label>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inhome" id="inhome">
+                                            <label for="inhome" class="form-check-label">In Home</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inoffice" id="inoffice">
+                                            <label for="inoffice" class="form-check-label">Office</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="onsite" id="onsite">
+                                            <label for="onsite" class="form-check-label">On Site</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="teletherapysetting" id="teletherapysetting">
+                                            <label for="teletherapysetting" class="form-check-label">Tele-thearpy</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col text-center mt-3">
+                                    <button type="submit" class="btn consult-submit-button text-white">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!--Flip-->
+        <div id="work-with-flip-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Interested in working with Flip?</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientname"> Name</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="clientname" name="clientname" required>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientphone"> Phone Number</label>
+                                    <div class="col">
+                                        <input type="tel" class="form-control" id="clientphone" name="clientphone" required>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="aboutyou">Additional Info</label>
+                                    <div class="col">
+                                        <textarea rows="4" class="form-control" placeholder="Please tell us more about yourself/your child"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <label class="col-3 col-form-label" for="clientname">Preferred Setting</label>
+                                    <div class="col">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inhome" id="inhome">
+                                            <label for="inhome" class="form-check-label">In Home</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="inoffice" id="inoffice">
+                                            <label for="inoffice" class="form-check-label">Office</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="onsite" id="onsite">
+                                            <label for="onsite" class="form-check-label">On Site</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="settingspreference" value="teletherapysetting" id="teletherapysetting">
+                                            <label for="teletherapysetting" class="form-check-label">Tele-thearpy</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row form-group align-items-center">
+                                    <div class="col-3"> Are you interested in group therapy?
+                                    </div>
+                                    <div class="col ">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="grouptherapy" value="yes" id="yesgroup">
+                                            <label for="yesgroup" class="form-check-label">Yes</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="grouptherapy" value="no" id="nogroup">
+                                            <label for="nogroup" class="form-check-label">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col text-center mt-3">
+                                        <button type="submit" class="btn consult-submit-button text-white">Submit</button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -300,6 +524,7 @@
         </div>
 
 
+        <!--footer-->
         <footer class="site-footer">
             <div class="container">
                 <div class="row">

@@ -90,7 +90,7 @@ h5 {
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url("../images/blocksbackground.jpg");
+    background-image: url("../images/blocksbackground.jpeg");
     opacity: 0.2;
     z-index: -2;
 }
@@ -116,22 +116,32 @@ h5 {
     font-size: 16px;
 }
 
-#work-with-goldy {
+#work-with-goldy-button {
     background-color: #007e9c;
     margin-left: 5px;
 }
 
-#work-with-puggy {
+#work-with-puggy-button {
     background-color: #007e9c;
     margin-left: 5px;
 }
 
-#work-with-libby {
+#work-with-libby-button {
     background-color: #007e9c;
     margin-left: 5px;
 }
 
-#work-with-flip {
+#work-with-flip-button {
     background-color: #007e9c;
     margin-left: 5px;
+}
+
+#contactusform {
+    border: 2px #004a76 solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.fa-envelope {
+    margin-right: 3px;
 }
