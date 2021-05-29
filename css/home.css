@@ -35,6 +35,7 @@ h2 {
 
 h3 {
     color: #f0533a;
+    font-weight: 600;
 }
 .about-us-p {
     font-weight: 600;
@@ -182,5 +183,16 @@ h5 {
 }
 
 .in-text-link {
+    color: #00b7b2;
+}
+
+.milestone-title {
     color: #007e9c;
+    font-size: 22px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+      bottom: 60%;
+      opacity: 1;
 }
